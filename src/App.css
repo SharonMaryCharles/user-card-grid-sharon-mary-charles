@@ -1,0 +1,89 @@
+.App {
+  font-family:monospace;
+  text-align: center;
+}
+
+.navbar {
+  background-color: black;
+  color: fffdd0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar-btn {
+  background-color: #fffdd0;
+  color: black;
+  border: none;
+  font-size :large;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.navbar-brand{
+  color: #fffdd0;
+  font-size :large;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.navbar-ty{
+  background-color: #fffdd0;
+  color: black;
+  border: none;
+  display: flex;
+  font-weight: bold;
+  font-size :large;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 20px;
+  
+}
+
+.loader {
+  border: 50px solid #f3f3f3; 
+  border-top: 50px solid black;
+  border-radius: 100%;
+  width: 160px;
+  height: 160px;
+  animation: spin 2s linear infinite;
+  margin: 200px auto;
+}
+
+.user-cards {
+  
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: left;
+  margin: 50px auto;
+  max-width: 1400px;
+}
+
+.user-card {
+  background-color: #fffdd0;
+  transition: all 0.3s ease-in-out;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 1px #ddd;
+  max-width: 300px;
+  text-align: center;
+}
+
+.user-card img {
+  width: 100%;
+  border-radius: 100%;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
